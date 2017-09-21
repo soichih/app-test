@@ -1,0 +1,22 @@
+{
+  "name": "app-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "~/abcd/start.sh test.sh",
+    "stop": "~/abcd/stop.sh",
+    "status": "~/abcd/status.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soichih/app-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soichih/app-test/issues"
+  },
+  "homepage": "https://github.com/soichih/app-test#readme"
+}
