@@ -9,5 +9,3 @@ cat <<END > product.json
 	"tags": ["test", "another"]
 }
 END
-
-exit 4
