@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "~/abcd/start.sh test.sh",
+    "start": "CPU=8 ~/abcd/start.sh test.sh",
     "stop": "~/abcd/stop.sh",
     "status": "~/abcd/status.sh"
   },
