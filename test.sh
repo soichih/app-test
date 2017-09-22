@@ -10,4 +10,4 @@ cat <<END > product.json
 }
 END
 
-exit 1
+exit 4
