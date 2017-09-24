@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "~/.brainlife/hooks/start.sh -s test.sh -c 8 -t 00:10:00",
-    "stop": "~/.brainlife/hooks/stop.sh",
-    "status": "~/.brainlife/hooks/status.sh"
+    "start": "~/.brainlife/start.sh -s test.sh -c 8 -t 00:10:00",
+    "stop": "~/.brainlife/stop.sh",
+    "status": "~/.brainlife/status.sh"
   },
   "repository": {
     "type": "git",
