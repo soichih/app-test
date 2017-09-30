@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "sleeping"
+echo "sleeping 10 seconds ..."
 sleep 10
 
 echo  "writing product.json"
