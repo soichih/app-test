@@ -3,5 +3,12 @@
 #PBS -l nodes=1:ppn=4
 #PBS -l walltime=01:00:00
 
+import os
+
 import dipy.tracking as dipytracking
 dipytracking.bench()
+
+os.mkdir("output")
+f = open("output/test.txt", "w")
+f.write("yo")
+f.close()
