@@ -12,3 +12,7 @@ os.mkdir("output")
 f = open("output/test.txt", "w")
 f.write("yo")
 f.close()
+
+f = open("product.json", "w")
+f.write("{\"tags\": [\"from_app\"]}")
+f.close()
