@@ -8,7 +8,11 @@ import os
 import dipy.tracking as dipytracking
 dipytracking.bench()
 
-os.mkdir("output")
+try:
+    os.stat("output")
+except:
+    os.mkdir("output")
+
 f = open("output/test.txt", "w")
 f.write("yo")
 f.close()
