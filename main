@@ -18,5 +18,5 @@ f.write("yo")
 f.close()
 
 f = open("product.json", "w")
-f.write("{\"tags\": [\"from_app\"]}")
+f.write("{\"tags\": [\"from_app\"], \"brainlife\": [{\"type\": \"success\", \"msg\": \"here is message\"}]}")
 f.close()
