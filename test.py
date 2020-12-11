@@ -14,20 +14,24 @@ with open('config.json') as f:
   config = json.load(f)
 
 try:
-    os.stat("output_1")
+    os.stat("output")
 except:
-    os.mkdir("output_1")
-shutil.copyfile(config['t1'], "output_1/t1.nii.gz")
+    os.mkdir("output")
+shutil.copyfile(config['t1'], "output/t1.nii.gz")
 
 try:
-    os.stat("output_2")
+    os.stat("output2")
 except:
-    os.mkdir("output_2")
-shutil.copyfile(config['t1'], "output_2/bad.nii.gz")
+    os.mkdir("output2")
+#shutil.copyfile(config['t1'], "output_2/bad.nii.gz")
+
+with open("output2/test.txt", "w") as f:
+    f.write("hello")
 
 #for deprecated output
-shutil.copyfile(config['t1'], "out.nii.gz")
+#shutil.copyfile(config['t1'], "out.nii.gz")
 
 #f = open("product.json", "w")
 #f.write("{\"tags\": [\"from_app\"], \"brainlife\": [{\"type\": \"success\", \"msg\": \"here is message\"}]}")
 #f.close()
+
