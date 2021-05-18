@@ -22,6 +22,6 @@ cat > product.json <<EOF
             "thing": "from product.json"
         }
     },
-    "brainlife": {}
+    "brainlife": []
 }
 EOF
