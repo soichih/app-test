@@ -10,7 +10,7 @@ anat=$(jq -r .t1 config.json)
 time singularity exec -e docker://python ./test.py
 
 mkdir -p anat
-cp $anat anat/t1.nii.gz
+install $anat anat/t1.nii.gz
 
 cat > product.json <<EOF
 {
