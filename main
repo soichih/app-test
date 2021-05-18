@@ -6,3 +6,17 @@ set -e
 set -x
 
 time singularity exec -e docker://python ./test.py
+
+cat > product.json <<EOF
+{
+    "output": {
+        "tags": [
+            "from_app"
+        ],
+        "meta": {
+            "thing": "from product.json"
+        }
+    },
+    "brainlife": {}
+}
+EOF

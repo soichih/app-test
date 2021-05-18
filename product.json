@@ -1,12 +1,11 @@
 {
-    "tags": ["from_app"], 
-    "data1": "value1",
-    "data2": "value2-common",
     "output": {
-        "data2": "value2-output",
-        "data3": "value3"
+        "tags": [
+            "from_app"
+        ],
+        "meta": {
+            "thing": "from product.json"
+        }
     },
-    "brainlife": [
-        {"type": "success", "msg": "here is message"}
-    ]
+    "brainlife": {}
 }
